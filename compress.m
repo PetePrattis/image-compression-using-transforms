@@ -1,4 +1,4 @@
-pic=imread('C:\Octave\Octave-4.2.1\bin\printst.png');
+pic=imread('path\image.png');
 imshow(pic)
 G=dct2(pic);
 inpt=input('Give a random number:')
